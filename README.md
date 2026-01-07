@@ -74,4 +74,22 @@ python evaluate_single_image.py -h #-h指查看help,运行这个脚本需要一�
 ├── TNT.pdf #TNT原文
 └── train_tnt.py #训练文件
 ```
-
+六、其他
+1.若需导入本地查看，可运行
+```bash
+# 把代码下载到本地
+git clone https://github.com/JLULHP/graduation-project-lhp.git
+# 下载到本地的是main分支，需要新建自己的分支
+git checkout -b 分支名字
+# 这样你就拥有了自己的分支，在这个分支上进行修修改改，可用 git branch查看分支树
+# 若要提交，则可运行如下指令
+# 1.查看自己改了哪些代码
+git status
+# 2.决定哪些代码是要提交的
+git add 文件夹1 文件夹2 文件1 文件2
+# 3.可用git status查看当前状态，选择哪些提交之后，运行如下指令正式提交，[]可以填[add]、[fix]、[update]
+git commit -m "[XXX]对你提交代码的解释"
+# 4.如果你后悔了，可以询问AI如何撤回，在此之前，都可以方便地进行撤回操作
+# 5.提交代码到远程仓库（github），这样你在github就可以看到你自己分支的代码
+git push origin 分支名字
+```

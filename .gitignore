@@ -1,0 +1,14 @@
+__pycache__/
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.pth
+*.pkl
+*.pt
+*.ckpt
+logs/
+runs/
+tensorboard/
+*.tfevents.*

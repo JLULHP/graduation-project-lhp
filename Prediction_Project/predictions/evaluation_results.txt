@@ -1,0 +1,13 @@
+TNT Transformer 预测评估结果
+========================================
+测试场景数量: 1
+模型路径: checkpoints/tnt_transformer/best_model.pth
+
+评估指标:
+ADE: 0.0031
+FDE: 0.0073
+ADE_std: 0.0037
+FDE_std: 0.0101
+
+ADE: Average Displacement Error (平均位移误差)
+FDE: Final Displacement Error (最终位移误差)
